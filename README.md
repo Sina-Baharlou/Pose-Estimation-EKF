@@ -14,14 +14,14 @@ skipped because of the high noise and the sudden changes in the information caus
 road or other elements.
 
 
-### Requirements 
+> **Requirements** 
 
-Python > 2.7 </br>
-RosBag </br>
-RosLib </br>
-NumPy </br>
-MatplotLib</br>
-SciPy</br>
+>- Python > 2.7 </br>
+>- RosBag </br>
+>- RosLib </br>
+>- NumPy </br>
+>- MatplotLib</br>
+>- SciPy</br>
 
 ### How to run 
 
