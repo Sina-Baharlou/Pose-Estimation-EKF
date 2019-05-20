@@ -17,11 +17,10 @@ road or other elements.
 > **Requirements** 
 
 >- Python > 2.7 </br>
->- RosBag </br>
->- RosLib </br>
+>- RosBag (sudo apt-get install python-rosbag)</br>
 >- NumPy </br>
 >- MatplotLib</br>
->- SciPy</br>
+
 
 ### How to run 
 
