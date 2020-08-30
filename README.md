@@ -1,5 +1,6 @@
-### 3D Pose Estimation of the Planar Robot Using Extended Kalman Filter
+## 3D Pose Estimation of the Planar Robot Using Extended Kalman Filter
 
+### Introduction
 This project focuses on the navigation and path estimation of a 2D planar robot (tank-
 threaded robot), in 3D space. The project refers to the classical dead reckoning problem, where
 there is no accurate information available about the position of the robot and the robot is not
@@ -13,15 +14,17 @@ also use the linear acceleration and angular velocity provided by IMU, but in th
 skipped because of the high noise and the sudden changes in the information caused by a bumpy
 road or other elements.
 
+### Demonstration
+The results of the default sample are illustrated in the following figure. On the left, you can see the comparison between the odometric path estimation and EKF. The rest of the figures show the 3D path estimated using EKF. The starting and ending point of the actual path traversed by the robot is the same, but in the odometric estimation, there is a big displacement between these two points. After correcting the angles using the extended kalman filter, the displacement significantly decreased. 
+<p align="center"><img src="docs/results.png" width="720" title="EKF Results"></p>
 
-> **Requirements** 
+### Code
 
->- Python > 2.7 </br>
+To run the code, please make sure you have the the following requirements installed:
+> Requirements
+>- Python >= 3.6 </br>
 >- RosBag (sudo apt-get install python-rosbag)</br>
 >- NumPy </br>
 >- MatplotLib</br>
 
-
-### How to run 
-
-Set the definitions in main.py file, then run 'python main.py'
+To run the code, set your parameters in `main.py` file, then run `python main.py`
