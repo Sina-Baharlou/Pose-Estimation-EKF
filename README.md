@@ -20,11 +20,11 @@ The results of the default sample are illustrated in the following figure. On th
 
 ### Code
 
-To run the code, please make sure you have the the following requirements installed:
+Please make sure you have the the following requirements installed:
 > Requirements
 >- Python >= 3.6 </br>
 >- RosBag (sudo apt-get install python-rosbag)</br>
 >- NumPy </br>
 >- MatplotLib</br>
 
-To run the code, set your parameters in `main.py` file, then run `python main.py`
+To run the code, set your parameters in `main.py` file, then run `python main.py`.
