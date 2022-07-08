@@ -18,6 +18,9 @@ road or other elements.
 The results of the default sample are illustrated in the following figure. On the left, you can see the comparison between the odometric path estimation and EKF. The rest of the figures show the 3D path estimated using EKF. The starting and ending point of the actual path traversed by the robot is the same, but in the odometric estimation, there is a big displacement between these two points. After correcting the angles using the extended kalman filter, the displacement significantly decreased. 
 <p align="center"><img src="docs/results.png" width="720" title="EKF Results"></p>
 
+### Adviser 
+Prof. Giorgio Grisetti
+
 ### Code
 
 Please make sure you have the the following requirements installed:
